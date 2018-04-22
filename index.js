@@ -1,6 +1,6 @@
 const genOne = require('./genOne')
 
-const max = 25
+const max = 1
 
 ;(async () => {
     for (let i = 0; i < max; i++) {

@@ -90,5 +90,8 @@ module.exports = async function() {
 
     console.log('done in ' + (new Date().getTime() - start.getTime() + 'ms'))
 
+    // wait for mega...
+    await mega.waitForSelector('.big-header')
+
     await browser.close()
 }
